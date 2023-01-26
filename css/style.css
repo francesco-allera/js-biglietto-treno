@@ -1,0 +1,44 @@
+:root {
+    --c-primary: #152921;
+    --c-secondary: #F2F8F7;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: var(--c-secondary);
+    color: var(--c-primary);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 1.35em;
+}
+#app {
+    max-width: 800px;
+    min-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+#output>* {
+    margin-bottom: 30px;
+}
+h1 {
+    text-align: center;
+    line-height: 1em;
+}
+ul li {
+    margin: 15px 0 15px 20px;
+}
+button {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--c-primary);
+    color: var(--c-secondary);
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
